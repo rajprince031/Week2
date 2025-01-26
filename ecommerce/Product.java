@@ -37,7 +37,7 @@ public abstract class Product implements Taxable {
     public abstract double calculateDiscount();
     public abstract double calculateFinalPrice();
 
-    // Concrete method to display employee details
+    // Concrete method to display product details
     public void displayDetails() {
         System.out.println("Product ID: " + this.PRODUCT_ID);
         System.out.println("Product Name: " + this.productName);
