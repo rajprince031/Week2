@@ -73,7 +73,7 @@ public abstract class BankAccount implements Loanable {
     }
 
 
-    // Concrete method to display employee details
+    // Concrete method to display bank details
     public void displayDetails(){
         System.out.println("\nBank Details\n");
         System.out.println("Holder Name: " + this.holderName);
